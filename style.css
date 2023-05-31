@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(96, 96, 180);
+  text-align: center;
+  justify-content: space-around;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3.8rem;
+  color: rgb(231, 199, 158);
+}
+
+header input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  background-color: #ead5dc;
+  color: rgb(96, 96, 180);
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  border-bottom: 3px solid #b1798d;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.city {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: plum;
+}
+
+.temp {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  color: plum;
+}
+
+.weather {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  color: plum;
+}
